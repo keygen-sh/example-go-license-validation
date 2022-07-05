@@ -21,7 +21,7 @@ type ValidationParams struct {
 
 type ValidationResult struct {
 	Valid bool   `json:"valid"`
-	Code  string `json:"constant"`
+	Code  string `json:"code"`
 }
 
 type ValidationRequest struct {
